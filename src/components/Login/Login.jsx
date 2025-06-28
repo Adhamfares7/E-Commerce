@@ -121,7 +121,7 @@ export default function Login() {
           >
             {isLoading ? <i className=" fas fa-spinner fa-spin"> </i> : "Login"}
           </button>
-          <Link className=" text-blue-600 underline mt-2" to={"/register"}>
+          <Link className=" text-blue-600 underline mt-2" to={"/E-Commerce/register"}>
             <span> Don't have an account? Register Now </span>{" "}
           </Link>
         </div>

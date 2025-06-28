@@ -227,7 +227,7 @@ export default function Register() {
               "Register"
             )}
           </button>
-          <Link className=" text-blue-600 underline mt-2" to={"/login"}>
+          <Link className=" text-blue-600 underline mt-2" to={"/E-Commerce/login"}>
             <span> Do you have an account? Login Now </span>{" "}
           </Link>
         </div>
