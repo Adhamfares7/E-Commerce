@@ -131,10 +131,10 @@ export default function ProductDetails() {
                   </div>
                 </Link>
                 <button
-                  className=" btn px-5"
-                  onClick={() => addToCart(Product.id)}
+                  className="btn px-5"
+                  onClick={() => addToCart(product.id)}
                 >
-                  {loding && currentId == Product.id ? (
+                  {loding && currentId == product.id ? (
                     <i className="fas fa-spinner fa-spin"></i>
                   ) : (
                     "Add to Cart"
